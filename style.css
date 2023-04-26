@@ -1,0 +1,15 @@
+body{
+    font-size: medium;
+    font-family: cursive;
+    background-image: linear-gradient(#d2f2ff,rgb(220, 22, 203));
+}
+#title{
+    text-align: center;
+    font-size: 56px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pagination{
+    font-size: larger;
+}
