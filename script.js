@@ -28,7 +28,6 @@ document.body.appendChild(about);
 				const booksList = document.getElementById("books");
 				books.forEach(book => {
 					const listItem = document.createElement("li");
-					listItem.setAttribute("id"="list")
 					listItem.innerText = (`Book:  ${book.name}
                                             isbn  :${book.isbn}
                                             Number of Pages: ${book.numberOfPages}
